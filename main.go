@@ -29,12 +29,6 @@ type Sprite struct {
 	spriteBucket *SpriteBucket
 }
 
-// func (s []*Sprite) A() {
-// 	//logic here
-// 	time.Sleep(time.Duration(s.durationToUpdate))
-// 	fmt.Print(s.spriteBucket.name)
-// }
-
 func (s *Sprite) Update() {
 	//logic here
 	time.Sleep(time.Duration(s.spriteBucket.duration))
